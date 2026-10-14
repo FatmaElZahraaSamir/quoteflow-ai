@@ -1,0 +1,15 @@
+[project]
+name = "quoteflow"
+version = "1.0.0"
+description = "AI agent that turns customer emails into priced quotes: function calling over catalog, stock, CRM and pricing tools, PDF quotes, human approval and evaluation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Fatma El Zahraa Samir" }]
+
+[tool.setuptools]
+packages = ["quoteflow"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

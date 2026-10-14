@@ -1,0 +1,19 @@
+{
+  "description": "Hand-checked outcome for each test email: products and quantities (in units of sale), total in AED including VAT, and what should happen next. Emails 01-07 are the demo inbox; 08-14 (eval/emails) were written to test other phrasings.",
+  "emails": {
+    "01_marina_tech_restock": {"intent": "quote_request", "lines": {"PAP-A4-80": 40, "MRK-WB-12": 10, "CHR-ERGO": 6, "PEN-BL-50": 25}, "total": 9041.34, "status": "ready"},
+    "02_alreem_dental_desks": {"intent": "quote_request", "lines": {"DSK-ELEC-160": 2, "CHR-VIS": 4, "SAN-5L": 3}, "total": 4767.60, "status": "review"},
+    "03_corniche_event_supplies": {"intent": "quote_request", "lines": {"WTR-500-24": 300, "CUP-8OZ-1000": 12, "TIS-36": 30}, "total": 9620.10, "status": "review"},
+    "04_desert_bloom_new_shop": {"intent": "quote_request", "lines": {"SHR-CC20": 1, "LAM-A3": 1, "WBD-120": 1, "KBM-WL": 2}, "not_found": ["3D printers"], "total": 1315.65, "status": "ready"},
+    "05_palm_logistics_discount": {"intent": "quote_request", "lines": {"PAP-A4-80": 500, "NOTE-76-12": 120}, "total": 44889.10, "status": "review"},
+    "06_sharjah_invoice_question": {"intent": "other", "route_to": "accounts", "lines": {}, "status": "forward"},
+    "07_saadiyat_mixed_items": {"intent": "quote_request", "lines": {"ENV-DL-500": 2, "STP-HD": 6, "CBL-HDMI-2": 10, "TNR-26A": 2}, "total": 1244.15, "status": "ready"},
+    "08_sharjah_stationery": {"intent": "quote_request", "lines": {"PEN-BK-50": 2, "HIL-6": 3, "STP-HD": 1}, "total": 244.52, "status": "ready"},
+    "09_marina_colleague_typos": {"intent": "quote_request", "lines": {"CHR-ERGO": 4, "ARM-DUAL": 2}, "total": 3186.02, "status": "review"},
+    "10_palm_html_list": {"intent": "quote_request", "lines": {"BAT-AA-24": 50, "BAG-BIN-60": 100}, "total": 3790.00, "status": "ready"},
+    "11_saadiyat_unclear_chairs": {"intent": "quote_request", "lines": {"DSK-140": 5}, "unclear": ["chairs"], "total": 3666.60, "status": "ready"},
+    "12_marina_broken_chair": {"intent": "other", "route_to": "customer service", "lines": {}, "status": "forward"},
+    "13_baylaw_pantry": {"intent": "quote_request", "lines": {"COF-BEAN-1": 6, "COF-CAP-100": 3, "WTR-500-24": 20}, "total": 1407.00, "status": "ready"},
+    "14_corniche_number_words": {"intent": "quote_request", "lines": {"FIL-LEVER-A4": 20, "STA-26-5000": 50}, "total": 601.13, "status": "ready"}
+  }
+}

@@ -1,0 +1,33 @@
+sku,name,category,unit,pack_size,item,price_aed,aliases
+PAP-A4-80,"A4 copy paper 80 gsm, box of 5 reams",Paper,box,5,ream,95.00,a4 paper;a4 copy paper;copy paper;printing paper;printer paper;a4 reams
+PAP-A3-80,"A3 copy paper 80 gsm, box of 5 reams",Paper,box,5,ream,165.00,a3 paper;a3 copy paper
+ENV-DL-500,"DL envelopes with window, box of 500",Paper,box,500,envelope,55.00,envelopes;dl envelopes;window envelopes;letter envelopes
+NOTE-76-12,"Sticky notes 76 x 76 mm, pack of 12 pads",Stationery,pack,12,pad,29.00,sticky notes;post-it notes;post its;sticky pads
+PEN-BL-50,"Ballpoint pens, blue, box of 50",Stationery,box,50,pen,38.00,blue pens;blue ballpoint pens;ballpoint pens blue;blue biros
+PEN-BK-50,"Ballpoint pens, black, box of 50",Stationery,box,50,pen,38.00,black pens;black ballpoint pens;ballpoint pens black;black biros
+MRK-WB-12,"Whiteboard markers, assorted colours, pack of 12",Stationery,pack,12,marker,42.00,whiteboard markers;dry erase markers;board markers
+HIL-6,"Highlighters, pack of 6",Stationery,pack,6,highlighter,21.00,highlighters;highlighter pens
+STP-HD,"Heavy-duty stapler, 100 sheets",Stationery,each,1,stapler,65.00,stapler;heavy duty stapler
+STA-26-5000,"Staples 26/6, box of 5,000",Stationery,box,5000,staple,7.00,staples;staple pins
+FIL-LEVER-A4,"Lever arch file A4, 75 mm",Filing,each,1,file,9.50,lever arch files;arch files;box files;office files
+CAB-3D,3-drawer steel filing cabinet,Furniture,each,1,cabinet,540.00,filing cabinet;drawer cabinet;steel cabinet
+CHR-ERGO,Ergonomic mesh office chair,Furniture,each,1,chair,649.00,ergonomic chair;ergonomic mesh chair;office chair;mesh chair;task chair
+CHR-VIS,Stackable visitor chair,Furniture,each,1,chair,189.00,visitor chair;guest chair;stackable chair;waiting room chair
+DSK-ELEC-160,Electric standing desk 160 x 80 cm,Furniture,each,1,desk,1850.00,electric standing desk;standing desk;sit stand desk;height adjustable desk
+DSK-140,Office desk 140 x 70 cm,Furniture,each,1,desk,720.00,office desk;work desk;desk
+WBD-120,Magnetic whiteboard 120 x 90 cm,Furniture,each,1,whiteboard,260.00,whiteboard;magnetic whiteboard;white board
+ARM-DUAL,Dual monitor arm,Tech,each,1,arm,299.00,monitor arm;dual monitor arm;screen arm
+KBM-WL,Wireless keyboard and mouse set,Tech,each,1,set,119.00,wireless keyboard and mouse;keyboard and mouse set;wireless keyboard
+HDS-USB,USB headset with noise-cancelling microphone,Tech,each,1,headset,159.00,usb headset;headset;headphones with microphone
+CBL-HDMI-2,HDMI cable 2 m,Tech,each,1,cable,25.00,hdmi cable;hdmi cable 2m
+BAT-AA-24,"AA batteries, pack of 24",Tech,pack,24,battery,49.00,aa batteries;batteries
+TNR-26A,"Toner cartridge, HP 26A compatible",Printing,each,1,cartridge,210.00,hp 26a toner;26a toner;toner cartridge;toner
+LAM-A3,A3 laminator,Printing,each,1,laminator,230.00,laminator;a3 laminator;laminating machine
+SHR-CC20,"Cross-cut paper shredder, 20 L",Printing,each,1,shredder,480.00,shredder;paper shredder;document shredder
+COF-BEAN-1,"Arabica coffee beans, 1 kg",Pantry,bag,1,bag,85.00,coffee beans;arabica coffee;coffee
+COF-CAP-100,"Coffee capsules, box of 100",Pantry,box,100,capsule,145.00,coffee capsules;coffee pods;capsules
+WTR-500-24,"Bottled water 500 ml, case of 24",Pantry,case,24,bottle,18.00,bottled water;water;water bottles;mineral water
+CUP-8OZ-1000,"Paper cups 8 oz, carton of 1,000",Pantry,carton,1000,cup,120.00,paper cups;8oz paper cups;coffee cups;disposable cups
+TIS-36,"Facial tissues, carton of 36 boxes",Pantry,carton,36,box,99.00,tissues;facial tissues;tissue boxes
+SAN-5L,"Hand sanitizer refill, 5 L",Cleaning,each,1,refill,75.00,hand sanitizer;hand sanitizer refill;sanitizer;sanitiser
+BAG-BIN-60,"Bin bags 60 L, roll of 50",Cleaning,roll,50,bag,16.00,bin bags;garbage bags;trash bags

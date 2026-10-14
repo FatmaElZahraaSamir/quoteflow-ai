@@ -1,0 +1,7 @@
+id,company,contact,email,tier,payment_terms,city,credit_limit,open_balance
+C-1001,Marina Tech Hub FZ-LLC,Sara Haddad,sara.haddad@marinatech.example,Gold,Net 30,Dubai,60000,12400
+C-1002,Al Reem Dental Clinic,Dr. Khalid Mansour,khalid@alreemdental.example,Silver,Net 30,Abu Dhabi,15000,12800
+C-1003,Corniche Events LLC,Lina Farouk,lina@cornicheevents.example,Standard,Prepaid,Abu Dhabi,0,0
+C-1004,Sharjah Learning Centre,Mariam Al Suwaidi,mariam@sharjahlearning.example,Silver,Net 30,Sharjah,20000,3100
+C-1005,Palm Logistics FZE,Arjun Mehta,arjun.mehta@palmlogistics.example,Gold,Net 45,Dubai,120000,45000
+C-1006,Saadiyat Architects,Noura Khalil,noura@saadiyat-arch.example,Silver,Net 30,Abu Dhabi,30000,0
