@@ -173,6 +173,10 @@ def inbox_page() -> None:
                                       email_id=f"pasted_{len(state.pasted) + 1:02d}")
                     state.pasted.append(email)
                     state.selected = email.id
+                    # A new table key makes the inbox open on the pasted email. Newer Streamlit
+                    # versions keep a keyed table's old selection, so changing the default alone
+                    # would leave the first email selected.
+                    state.table_version = state.get("table_version", 0) + 1
                     st.rerun()
 
     table = pd.DataFrame([{
@@ -186,7 +190,7 @@ def inbox_page() -> None:
         ids = [e.id for e in emails]
         selected_id = state.get("selected") if state.get("selected") in ids else ids[0]
         event = st.dataframe(table, hide_index=True, width="stretch", on_select="rerun",
-                             selection_mode="single-row", key="inbox_table",
+                             selection_mode="single-row", key=f"inbox_table_{state.get('table_version', 0)}",
                              selection_default={"selection": {"rows": [ids.index(selected_id)], "columns": [],
                                                               "cells": []}},
                              column_config={"": st.column_config.TextColumn(width=36),
